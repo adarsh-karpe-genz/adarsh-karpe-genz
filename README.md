@@ -86,22 +86,6 @@ const adarsh = {
 
 <br/>
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg?v=5">
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg?v=5">
-  <img src="github-snake.svg?v=5" alt="Contribution snake animation" width="100%"/>
-</picture>
-
-</div>
-
-> Daily animated commit eating grid • Nature Light-Blue theme
-
-<br/>
-
 ## 🚀 Projects
 
 <div align="center">
