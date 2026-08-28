@@ -1,14 +1,14 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=3">
-  <img alt="Adarsh Karpe banner" src="banner.svg?v=3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=4">
+  <img alt="Adarsh Karpe banner" src="banner.svg?v=4" width="100%">
 </picture>
 
 <br/>
 
-<img src="lanyard.svg?v=3" width="260" alt="Adarsh Karpe ID badge"/>
+<img src="lanyard.svg?v=4" width="260" alt="Adarsh Karpe ID badge"/>
 
 <br/><br/>
 
@@ -66,12 +66,12 @@ const adarsh = {
 ## 📊 GitHub Stats
 
 <div align="center">
-<img src="stats.svg?v=3" width="49%" alt="GitHub stats"/>
-<img src="langs.svg?v=3" width="49%" alt="Top languages"/>
+<img src="stats.svg?v=4" width="49%" alt="GitHub stats"/>
+<img src="langs.svg?v=4" width="49%" alt="Top languages"/>
 </div>
 
 <div align="center">
-<img src="trophies.svg?v=3" width="100%" alt="GitHub trophies"/>
+<img src="trophies.svg?v=4" width="100%" alt="GitHub trophies"/>
 </div>
 
 > Numbers on these cards represent milestones and continuous growth.
@@ -81,7 +81,7 @@ const adarsh = {
 ## 📈 Contribution Activity
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=adarsh-karpe-genz&theme=tokyo-night&hide_border=true&area=true&color=38bdf8&line=0284c7&point=34d399" width="100%" alt="Contribution activity graph"/>
+<img src="activity-graph.svg?v=4" width="100%" alt="Contribution activity graph"/>
 </div>
 
 <br/>
@@ -91,14 +91,14 @@ const adarsh = {
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adarsh-karpe-genz/adarsh-karpe-genz/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/adarsh-karpe-genz/adarsh-karpe-genz/output/github-snake.svg">
-  <img src="https://raw.githubusercontent.com/adarsh-karpe-genz/adarsh-karpe-genz/output/github-snake.svg" alt="Contribution snake animation" width="100%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg?v=4">
+  <img src="github-snake.svg?v=4" alt="Contribution snake animation" width="100%"/>
 </picture>
 
 </div>
 
-> Generated daily by [`.github/workflows/github-snake.yml`](.github/workflows/github-snake.yml) using [Platane/snk](https://github.com/Platane/snk).
+> Daily animated commit eating grid • Nature Light-Blue theme
 
 <br/>
 
