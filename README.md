@@ -1,14 +1,14 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=2">
-  <img alt="Adarsh Karpe banner" src="banner.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=3">
+  <img alt="Adarsh Karpe banner" src="banner.svg?v=3" width="100%">
 </picture>
 
 <br/>
 
-<img src="lanyard.svg?v=2" width="260" alt="Adarsh Karpe ID badge"/>
+<img src="lanyard.svg?v=3" width="260" alt="Adarsh Karpe ID badge"/>
 
 <br/><br/>
 
@@ -66,12 +66,12 @@ const adarsh = {
 ## 📊 GitHub Stats
 
 <div align="center">
-<img src="stats.svg?v=2" width="49%" alt="GitHub stats"/>
-<img src="langs.svg?v=2" width="49%" alt="Top languages"/>
+<img src="stats.svg?v=3" width="49%" alt="GitHub stats"/>
+<img src="langs.svg?v=3" width="49%" alt="Top languages"/>
 </div>
 
 <div align="center">
-<img src="trophies.svg?v=2" width="100%" alt="GitHub trophies"/>
+<img src="trophies.svg?v=3" width="100%" alt="GitHub trophies"/>
 </div>
 
 > Numbers on these cards represent milestones and continuous growth.
