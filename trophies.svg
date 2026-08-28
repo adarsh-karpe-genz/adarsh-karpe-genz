@@ -1,15 +1,113 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 190" width="830" height="190"><defs><linearGradient id="tr_bg" x1="0" y1="0" x2="1" y2="1">
-  <stop offset="0%" stop-color="#0f1730"/><stop offset="100%" stop-color="#0a0e1c"/>
-</linearGradient><clipPath id="tr_card"><rect width="830" height="190" rx="18"/></clipPath><filter id="tr_glow" x="-80%" y="-80%" width="260%" height="260%">
-  <feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter><linearGradient id="tr_shine" x1="0" y1="0" x2="1" y2="0">
-  <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-  <stop offset="50%" stop-color="#ffffff" stop-opacity="0.4"/>
-  <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-</linearGradient></defs><style>.tr-s{font-family:'Segoe UI',Verdana,Arial,sans-serif} .tr-m{font-family:'Courier New',ui-monospace,monospace}</style><g clip-path="url(#tr_card)"><rect width="830" height="190" fill="url(#tr_bg)"/><g transform="translate(69.16666666666667,89.0) scale(0)" opacity="0"><animateTransform attributeName="transform" type="scale" additive="sum"
-      values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.00s" fill="freeze"/><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.00s" fill="freeze"/><line x1="69.16666666666667" y1="-60" x2="69.16666666666667" y2="60" stroke="#2b3563" stroke-width="1"/><circle cx="0" cy="-22" r="34" fill="none" stroke="#ff6ec7" stroke-width="2" opacity="0.55" filter="url(#tr_glow)"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="0.60s" repeatCount="indefinite"/></circle><path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#ff6ec7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/><text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#c7cfe8">Commits</text><text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#ff6ec7">A+</text></g><g transform="translate(207.5,89.0) scale(0)" opacity="0"><animateTransform attributeName="transform" type="scale" additive="sum"
-      values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.15s" fill="freeze"/><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.15s" fill="freeze"/><line x1="69.16666666666667" y1="-60" x2="69.16666666666667" y2="60" stroke="#2b3563" stroke-width="1"/><circle cx="0" cy="-22" r="34" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.55" filter="url(#tr_glow)"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="0.75s" repeatCount="indefinite"/></circle><path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/><text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#c7cfe8">Pull Requests</text><text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#8b5cf6">A</text></g><g transform="translate(345.83333333333337,89.0) scale(0)" opacity="0"><animateTransform attributeName="transform" type="scale" additive="sum"
-      values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.30s" fill="freeze"/><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.30s" fill="freeze"/><line x1="69.16666666666667" y1="-60" x2="69.16666666666667" y2="60" stroke="#2b3563" stroke-width="1"/><circle cx="0" cy="-22" r="34" fill="none" stroke="#5ec9ff" stroke-width="2" opacity="0.55" filter="url(#tr_glow)"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="0.90s" repeatCount="indefinite"/></circle><path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#5ec9ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/><text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#c7cfe8">Stars</text><text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#5ec9ff">B+</text></g><g transform="translate(484.1666666666667,89.0) scale(0)" opacity="0"><animateTransform attributeName="transform" type="scale" additive="sum"
-      values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.45s" fill="freeze"/><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.45s" fill="freeze"/><line x1="69.16666666666667" y1="-60" x2="69.16666666666667" y2="60" stroke="#2b3563" stroke-width="1"/><circle cx="0" cy="-22" r="34" fill="none" stroke="#39e69d" stroke-width="2" opacity="0.55" filter="url(#tr_glow)"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="1.05s" repeatCount="indefinite"/></circle><path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#39e69d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/><text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#c7cfe8">Repositories</text><text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#39e69d">A</text></g><g transform="translate(622.5,89.0) scale(0)" opacity="0"><animateTransform attributeName="transform" type="scale" additive="sum"
-      values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.60s" fill="freeze"/><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.60s" fill="freeze"/><line x1="69.16666666666667" y1="-60" x2="69.16666666666667" y2="60" stroke="#2b3563" stroke-width="1"/><circle cx="0" cy="-22" r="34" fill="none" stroke="#ffd166" stroke-width="2" opacity="0.55" filter="url(#tr_glow)"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="1.20s" repeatCount="indefinite"/></circle><path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#ffd166" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/><text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#c7cfe8">Followers</text><text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#ffd166">B</text></g><g transform="translate(760.8333333333334,89.0) scale(0)" opacity="0"><animateTransform attributeName="transform" type="scale" additive="sum"
-      values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.75s" fill="freeze"/><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.75s" fill="freeze"/><circle cx="0" cy="-22" r="34" fill="none" stroke="#ff8fd4" stroke-width="2" opacity="0.55" filter="url(#tr_glow)"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="1.35s" repeatCount="indefinite"/></circle><path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#ff8fd4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/><text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#c7cfe8">Experience</text><text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#ff8fd4">S</text></g><rect x="-830" y="0" width="830" height="190" fill="url(#tr_shine)" transform="skewX(-20)"><animate attributeName="x" values="-1079;1079" dur="3.5s" begin="1.4s" repeatCount="indefinite"/></rect><rect x="1" y="1" width="828" height="188" rx="17" fill="none" stroke="#2b3563" stroke-width="1.5"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 190" width="830" height="190">
+  <defs>
+    <linearGradient id="tr_bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1f33"/>
+      <stop offset="100%" stop-color="#06121f"/>
+    </linearGradient>
+    <clipPath id="tr_card"><rect width="830" height="190" rx="18"/></clipPath>
+    <filter id="tr_glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="tr_shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .tr-s { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Verdana, Arial, sans-serif; }
+    .tr-m { font-family: 'Consolas', 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <g clip-path="url(#tr_card)">
+    <rect width="830" height="190" fill="url(#tr_bg)"/>
+
+    <!-- Trophy 1: Commits (A+) -->
+    <g transform="translate(69.2, 89.0) scale(0)" opacity="0">
+      <animateTransform attributeName="transform" type="scale" additive="sum"
+        values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.00s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.00s" fill="freeze"/>
+      <circle cx="0" cy="-22" r="34" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.6" filter="url(#tr_glow)">
+        <animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="0.60s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/>
+      <text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#bae6fd">Commits</text>
+      <text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#38bdf8">A+</text>
+    </g>
+
+    <!-- Trophy 2: Pull Requests (A) -->
+    <g transform="translate(207.5, 89.0) scale(0)" opacity="0">
+      <animateTransform attributeName="transform" type="scale" additive="sum"
+        values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.15s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.15s" fill="freeze"/>
+      <circle cx="0" cy="-22" r="34" fill="none" stroke="#34d399" stroke-width="2" opacity="0.6" filter="url(#tr_glow)">
+        <animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/>
+      <text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#bae6fd">Pull Requests</text>
+      <text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#34d399">A</text>
+    </g>
+
+    <!-- Trophy 3: Stars (B+) -->
+    <g transform="translate(345.8, 89.0) scale(0)" opacity="0">
+      <animateTransform attributeName="transform" type="scale" additive="sum"
+        values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.30s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.30s" fill="freeze"/>
+      <circle cx="0" cy="-22" r="34" fill="none" stroke="#7dd3fc" stroke-width="2" opacity="0.6" filter="url(#tr_glow)">
+        <animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="0.90s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#7dd3fc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/>
+      <text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#bae6fd">Stars</text>
+      <text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#7dd3fc">B+</text>
+    </g>
+
+    <!-- Trophy 4: Repositories (A) -->
+    <g transform="translate(484.2, 89.0) scale(0)" opacity="0">
+      <animateTransform attributeName="transform" type="scale" additive="sum"
+        values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.45s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.45s" fill="freeze"/>
+      <circle cx="0" cy="-22" r="34" fill="none" stroke="#2dd4bf" stroke-width="2" opacity="0.6" filter="url(#tr_glow)">
+        <animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="1.05s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/>
+      <text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#bae6fd">Repositories</text>
+      <text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#2dd4bf">A</text>
+    </g>
+
+    <!-- Trophy 5: Followers (B) -->
+    <g transform="translate(622.5, 89.0) scale(0)" opacity="0">
+      <animateTransform attributeName="transform" type="scale" additive="sum"
+        values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.60s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.60s" fill="freeze"/>
+      <circle cx="0" cy="-22" r="34" fill="none" stroke="#facc15" stroke-width="2" opacity="0.6" filter="url(#tr_glow)">
+        <animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="1.20s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#facc15" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/>
+      <text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#bae6fd">Followers</text>
+      <text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#facc15">B</text>
+    </g>
+
+    <!-- Trophy 6: Experience (S) -->
+    <g transform="translate(760.8, 89.0) scale(0)" opacity="0">
+      <animateTransform attributeName="transform" type="scale" additive="sum"
+        values="0;1.15;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.6s" begin="0.75s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.75s" fill="freeze"/>
+      <circle cx="0" cy="-22" r="34" fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.6" filter="url(#tr_glow)">
+        <animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.6s" begin="1.35s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-14,-18 L14,-18 L11,4 C11,14 -11,14 -11,4 Z M-14,-18 C-24,-18 -24,-4 -14,-4 M14,-18 C24,-18 24,-4 14,-4 M0,14 L0,22 M-10,26 L10,26" fill="none" stroke="#60a5fa" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#tr_glow)"/>
+      <text x="0" y="52" text-anchor="middle" class="tr-s" font-size="12.5" fill="#bae6fd">Experience</text>
+      <text x="0" y="-16" text-anchor="middle" class="tr-s" font-size="15" font-weight="800" fill="#60a5fa">S</text>
+    </g>
+
+    <!-- Glass Shimmer Sweep -->
+    <rect x="-830" y="0" width="830" height="190" fill="url(#tr_shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-1079;1079" dur="3.5s" begin="1.4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Border -->
+    <rect x="1" y="1" width="828" height="188" rx="17" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+  </g>
+</svg>
