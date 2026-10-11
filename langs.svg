@@ -1,46 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 300" width="340" height="300">
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 340 300" width="340" height="300">
   <defs>
-    <linearGradient id="lg_bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a1f33"/>
-      <stop offset="100%" stop-color="#06121f"/>
-    </linearGradient>
-    <clipPath id="lg_card"><rect width="340" height="300" rx="18"/></clipPath>
+    <clipPath id="lg_clip"><rect width="340" height="300" rx="18" ry="18"/></clipPath>
     <clipPath id="lg_barClip"><rect x="22" y="48" width="296" height="14" rx="7"/></clipPath>
+    <!-- Luxury Gold Gradient for Rims -->
+    <linearGradient id="gold_rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff4d0"/>
+      <stop offset="25%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="75%" stop-color="#aa7c11"/>
+      <stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+
+    <!-- Inner Metallic Specular Gold Stroke -->
+    <linearGradient id="inner_gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#fef08a" stop-opacity="0.45"/>
+      <stop offset="80%" stop-color="#d4af37" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ffd700" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Luxury Midnight Glass Body -->
+    <linearGradient id="glass_body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1829" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#06101d" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#03070d" stop-opacity="1.0"/>
+    </linearGradient>
+
+    <!-- Upper Half Convex Glass Gloss Highlight -->
+    <linearGradient id="glass_gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Shimmer Sweep -->
+    <linearGradient id="gold_shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="card_shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
   </defs>
 
   <style>
-    .lg-s { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Verdana, Arial, sans-serif; }
+    .lg-s { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif; }
     .lg-m { font-family: 'Consolas', 'Fira Code', 'Courier New', monospace; }
   </style>
 
-  <g clip-path="url(#lg_card)">
-    <rect width="340" height="300" fill="url(#lg_bg)"/>
+  <!-- Base Glass Body -->
+  <rect width="340" height="300" rx="18" fill="url(#glass_body)" filter="url(#card_shadow)"/>
+
+  <g clip-path="url(#lg_clip)">
+    <!-- Upper Glass Gloss Highlight (Convex Luxury Glass) -->
+    <ellipse cx="170" cy="8" rx="155" ry="32" fill="url(#glass_gloss)"/>
+
     <text x="22" y="32" class="lg-s" font-size="16" font-weight="700" fill="#f0f9ff">Most Used Languages</text>
 
     <!-- Top Consolidated Multi-Color Segment Bar -->
-    <rect x="22" y="48" width="296" height="14" rx="7" fill="#132d47"/>
+    <rect x="22" y="48" width="296" height="14" rx="7" fill="#0c2138"/>
     <g clip-path="url(#lg_barClip)">
-      <!-- C++ 28% -->
       <rect x="22.0" y="48" width="0" height="14" fill="#38bdf8">
         <animate attributeName="width" from="0" to="82.9" dur="0.8s" begin="0.20s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
-      <!-- Python 24% -->
       <rect x="104.9" y="48" width="0" height="14" fill="#34d399">
         <animate attributeName="width" from="0" to="71.0" dur="0.8s" begin="0.32s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
-      <!-- Java 18% -->
       <rect x="175.9" y="48" width="0" height="14" fill="#f59e0b">
         <animate attributeName="width" from="0" to="53.3" dur="0.8s" begin="0.44s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
-      <!-- JavaScript 15% -->
       <rect x="229.2" y="48" width="0" height="14" fill="#facc15">
         <animate attributeName="width" from="0" to="44.4" dur="0.8s" begin="0.56s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
-      <!-- HTML/CSS 9% -->
       <rect x="273.6" y="48" width="0" height="14" fill="#0ea5e9">
         <animate attributeName="width" from="0" to="26.6" dur="0.8s" begin="0.68s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
-      <!-- Other 6% -->
       <rect x="300.2" y="48" width="0" height="14" fill="#94a3b8">
         <animate attributeName="width" from="0" to="17.8" dur="0.8s" begin="0.80s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
@@ -53,7 +89,7 @@
       <circle cx="30" cy="92" r="5" fill="#38bdf8"/>
       <text x="44" y="96" class="lg-s" font-size="13" fill="#bae6fd">C++</text>
       <text x="318" y="96" text-anchor="end" class="lg-m" font-size="12.5" fill="#f0f9ff">28%</text>
-      <rect x="44" y="101" width="236" height="5" rx="2.5" fill="#132d47"/>
+      <rect x="44" y="101" width="236" height="5" rx="2.5" fill="#0c2138"/>
       <rect x="44" y="101" width="0" height="5" rx="2.5" fill="#38bdf8">
         <animate attributeName="width" from="0" to="236.0" dur="0.7s" begin="1.00s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
@@ -65,7 +101,7 @@
       <circle cx="30" cy="125" r="5" fill="#34d399"/>
       <text x="44" y="129" class="lg-s" font-size="13" fill="#bae6fd">Python</text>
       <text x="318" y="129" text-anchor="end" class="lg-m" font-size="12.5" fill="#f0f9ff">24%</text>
-      <rect x="44" y="134" width="236" height="5" rx="2.5" fill="#132d47"/>
+      <rect x="44" y="134" width="236" height="5" rx="2.5" fill="#0c2138"/>
       <rect x="44" y="134" width="0" height="5" rx="2.5" fill="#34d399">
         <animate attributeName="width" from="0" to="202.3" dur="0.7s" begin="1.13s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
@@ -77,7 +113,7 @@
       <circle cx="30" cy="158" r="5" fill="#f59e0b"/>
       <text x="44" y="162" class="lg-s" font-size="13" fill="#bae6fd">Java</text>
       <text x="318" y="162" text-anchor="end" class="lg-m" font-size="12.5" fill="#f0f9ff">18%</text>
-      <rect x="44" y="167" width="236" height="5" rx="2.5" fill="#132d47"/>
+      <rect x="44" y="167" width="236" height="5" rx="2.5" fill="#0c2138"/>
       <rect x="44" y="167" width="0" height="5" rx="2.5" fill="#f59e0b">
         <animate attributeName="width" from="0" to="151.7" dur="0.7s" begin="1.26s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
@@ -89,7 +125,7 @@
       <circle cx="30" cy="191" r="5" fill="#facc15"/>
       <text x="44" y="195" class="lg-s" font-size="13" fill="#bae6fd">JavaScript</text>
       <text x="318" y="195" text-anchor="end" class="lg-m" font-size="12.5" fill="#f0f9ff">15%</text>
-      <rect x="44" y="200" width="236" height="5" rx="2.5" fill="#132d47"/>
+      <rect x="44" y="200" width="236" height="5" rx="2.5" fill="#0c2138"/>
       <rect x="44" y="200" width="0" height="5" rx="2.5" fill="#facc15">
         <animate attributeName="width" from="0" to="126.4" dur="0.7s" begin="1.39s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
@@ -101,7 +137,7 @@
       <circle cx="30" cy="224" r="5" fill="#0ea5e9"/>
       <text x="44" y="228" class="lg-s" font-size="13" fill="#bae6fd">HTML/CSS</text>
       <text x="318" y="228" text-anchor="end" class="lg-m" font-size="12.5" fill="#f0f9ff">9%</text>
-      <rect x="44" y="233" width="236" height="5" rx="2.5" fill="#132d47"/>
+      <rect x="44" y="233" width="236" height="5" rx="2.5" fill="#0c2138"/>
       <rect x="44" y="233" width="0" height="5" rx="2.5" fill="#0ea5e9">
         <animate attributeName="width" from="0" to="75.9" dur="0.7s" begin="1.52s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
@@ -113,13 +149,33 @@
       <circle cx="30" cy="257" r="5" fill="#94a3b8"/>
       <text x="44" y="261" class="lg-s" font-size="13" fill="#bae6fd">Other</text>
       <text x="318" y="261" text-anchor="end" class="lg-m" font-size="12.5" fill="#f0f9ff">6%</text>
-      <rect x="44" y="266" width="236" height="5" rx="2.5" fill="#132d47"/>
+      <rect x="44" y="266" width="236" height="5" rx="2.5" fill="#0c2138"/>
       <rect x="44" y="266" width="0" height="5" rx="2.5" fill="#94a3b8">
         <animate attributeName="width" from="0" to="50.6" dur="0.7s" begin="1.65s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
       </rect>
     </g>
 
-    <!-- Card Border -->
-    <rect x="1" y="1" width="338" height="298" rx="17" fill="none" stroke="#1e3a5f" stroke-width="1.5"/>
+    <!-- Animated Light Shimmer Sweep -->
+    <rect x="-100" y="0" width="80" height="300" fill="url(#gold_shimmer)" transform="skewX(-22)">
+      <animate attributeName="x" values="-120;460" dur="5.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Outer Metallic Gold Rim -->
+  <rect x="1.5" y="1.5" width="337" height="297" rx="16.5" fill="none" stroke="url(#gold_rim)" stroke-width="1.8"/>
+  <rect x="3" y="3" width="334" height="294" rx="15" fill="none" stroke="url(#inner_gold)" stroke-width="0.8"/>
+
+  <!-- Star Lens Flare Glints on Corners -->
+  <g transform="translate(18, 10)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="0" rx="9" ry="1.2" fill="#ffffff"/>
+    <ellipse cx="0" cy="0" rx="1.2" ry="9" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="1.8" fill="#fff4d0"/>
+  </g>
+  <g transform="translate(322, 290)">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" begin="1.1s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="0" rx="9" ry="1.2" fill="#ffffff"/>
+    <ellipse cx="0" cy="0" rx="1.2" ry="9" fill="#ffffff"/>
+    <circle cx="0" cy="0" r="1.8" fill="#fff4d0"/>
   </g>
 </svg>

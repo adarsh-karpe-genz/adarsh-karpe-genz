@@ -1,21 +1,21 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=11">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=11">
-  <img alt="Adarsh Karpe banner" src="banner.svg?v=11" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=13">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=13">
+  <img alt="Adarsh Karpe banner" src="banner.svg?v=13" width="100%">
 </picture>
 
 <br/>
 
-<img src="lanyard.svg?v=11" width="260" alt="Adarsh Karpe ID badge"/>
+<img src="lanyard.svg?v=13" width="260" alt="Adarsh Karpe ID badge"/>
 
 <br/><br/>
 
-<a href="mailto:adarshkarpe555@gmail.com"><img src="btn-email.svg?v=1" height="42" alt="Email"/></a>
-<a href="https://www.linkedin.com/in/adarsh-karpe-5287b8384/"><img src="btn-linkedin.svg?v=1" height="42" alt="LinkedIn"/></a>
-<a href="https://www.instagram.com/aadarrax/"><img src="btn-instagram.svg?v=1" height="42" alt="Instagram"/></a>
-<a href="https://in.pinterest.com/adarrush/"><img src="btn-pinterest.svg?v=1" height="42" alt="Pinterest"/></a>
+<a href="mailto:adarshkarpe555@gmail.com"><img src="btn-email.svg?v=13" height="42" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/adarsh-karpe-5287b8384/"><img src="btn-linkedin.svg?v=13" height="42" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/aadarrax/"><img src="btn-instagram.svg?v=13" height="42" alt="Instagram"/></a>
+<a href="https://in.pinterest.com/adarrush/"><img src="btn-pinterest.svg?v=13" height="42" alt="Pinterest"/></a>
 
 <br/><br/>
 
@@ -68,18 +68,18 @@ const adarsh = {
 ## 📊 GitHub Stats
 
 <div align="center">
-<img src="trust-the-process.svg?v=11" width="100%" alt="Trust The Process"/>
+<img src="trust-the-process.svg?v=13" width="100%" alt="Trust The Process"/>
 </div>
 
 <br/>
 
 <div align="center">
-<img src="stats.svg?v=11" width="49%" alt="GitHub stats"/>
-<img src="langs.svg?v=11" width="49%" alt="Top languages"/>
+<img src="stats.svg?v=13" width="49%" alt="GitHub stats"/>
+<img src="langs.svg?v=13" width="49%" alt="Top languages"/>
 </div>
 
 <div align="center">
-<img src="trophies.svg?v=11" width="100%" alt="What, like it's hard?"/>
+<img src="trophies.svg?v=13" width="100%" alt="What, like it's hard?"/>
 </div>
 
 > Numbers on these cards represent milestones and continuous growth.
@@ -89,7 +89,7 @@ const adarsh = {
 ## 📈 Contribution Activity
 
 <div align="center">
-<img src="activity-graph.svg?v=11" width="100%" alt="Contribution activity graph"/>
+<img src="activity-graph.svg?v=13" width="100%" alt="Contribution activity graph"/>
 </div>
 
 <br/>
