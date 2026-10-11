@@ -12,10 +12,12 @@
 
 <br/><br/>
 
-<a href="mailto:adarshkarpe555@gmail.com"><img src="https://img.shields.io/badge/Email-0284C7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/adarsh-karpe-genz"><img src="https://img.shields.io/badge/GitHub-08233C?style=for-the-badge&logo=github&logoColor=38bdf8" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://twitter.com/"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
+<a href="mailto:adarshkarpe555@gmail.com"><img src="btn-email.svg?v=1" height="42" alt="Email"/></a>
+<a href="https://www.linkedin.com/in/adarsh-karpe-5287b8384/"><img src="btn-linkedin.svg?v=1" height="42" alt="LinkedIn"/></a>
+<a href="https://www.instagram.com/aadarrax/"><img src="btn-instagram.svg?v=1" height="42" alt="Instagram"/></a>
+<a href="https://in.pinterest.com/adarrush/"><img src="btn-pinterest.svg?v=1" height="42" alt="Pinterest"/></a>
+
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=adarsh-karpe-genz&style=for-the-badge&color=38bdf8&label=PROFILE+VIEWS" alt="Profile views"/>
 
