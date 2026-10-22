@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=14">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=14">
-  <img alt="Adarsh Karpe banner" src="banner.svg?v=14" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=15">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=15">
+  <img alt="Adarsh Karpe banner" src="banner.svg?v=15" width="100%">
 </picture>
 
 <br/>
