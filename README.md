@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="lanyard.svg?v=14" width="260" alt="Adarsh Karpe ID badge"/>
+<img src="lanyard.svg?v=15" width="260" alt="Adarsh Karpe ID badge"/>
 
 <br/><br/>
 
